@@ -15,7 +15,6 @@ function App() {
           <Route path="/product/:slug" element={<ProductScreen />} />
           <Route path="/" element={<HomeScreen /> } />
         </Routes>
-        
       </main>
     </div>
     </BrowserRouter>
